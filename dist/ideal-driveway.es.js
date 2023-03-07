@@ -1,10 +1,10 @@
 /**
- * name: vite-module-builder-w-ghpages-npm-template
+ * name: ideal-driveway
  * version: v1.0.0
  * description: This is a templare repo that will create a Vite workflow to ease creation of Javascript modules with a dev server, GitHub Pages support and automated publishing to NPM.
  * author: John F. Morton <john@johnfmorton.com> (https://supergeekery.com)
- * repository: https://github.com/johnfmorton/vite-module-builder-w-ghpages-npm-template
- * build date: 2023-03-07T19:05:43.275Z 
+ * repository: https://github.com/johnfmorton/ideal-driveway
+ * build date: 2023-03-07T19:25:45.266Z 
  */
 function init(message) {
   console.log(message);
@@ -13,9 +13,9 @@ function init(message) {
     messageOutputElement.innerHTML = message;
   }
 }
-const viteModuleBuilderWGhpagesNpmTemplate = {
+const idealDriveway = {
   init
 };
 export {
-  viteModuleBuilderWGhpagesNpmTemplate as default
+  idealDriveway as default
 };

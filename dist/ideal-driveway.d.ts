@@ -1,4 +1,4 @@
-declare module "vite-module-builder-w-ghpages-npm-template" {
+declare module "ideal-driveway" {
     function init(message: string): void;
     const _default: {
         init: typeof init;
