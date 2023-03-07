@@ -12,11 +12,11 @@ module.exports = defineConfig({
         lib: {
             entry: path.resolve(
                 __dirname,
-                'lib/vite-module-builder-w-ghpages-npm-template.ts'
+                'lib/ideal-driveway.ts'
             ),
-            name: 'vite-module-builder-w-ghpages-npm-template',
+            name: 'ideal-driveway',
             fileName: (format) =>
-                `vite-module-builder-w-ghpages-npm-template.${format}.js`,
+                `ideal-driveway.${format}.js`,
         },
         minify: false,
     },
